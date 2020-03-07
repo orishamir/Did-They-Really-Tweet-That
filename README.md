@@ -3,3 +3,7 @@
 #### and wondered:" This has got to be fake. no way" but did not have 
 #### the time and power to check?
 #### This program does it for you.
+
+## Usage: python didtheyreally.py <username> [word1 word2 word3 ...]
+## Example:
+##     python didtheyreally.py elonmusk if life is video graphics confusing long

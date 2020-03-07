@@ -17,8 +17,8 @@ parser.add_argument("words", help="List of words that must be included in the tw
 args = parser.parse_args()
 
 # Put tweeter API data here
-auth = tweepy.OAuthHandler("redacted", "redacted")
-auth.set_access_token("redacted", "redacted")
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
 
 def get_all_tweets(screen_name):
     # make initial request for most recent tweets (200 is the maximum allowed count)
